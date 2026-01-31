@@ -9,7 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /get-started
+      link: /getstart/quick-start
+    - theme: brand
+      text: About
+      link: /getstart/intro
     - theme: alt
       text: Try the Demo
       link: https://authmark.github.io/AuthExample/
