@@ -9,7 +9,7 @@ AuthMark allows you to **add authentication to your website** with minimal setup
 Add this to your HTML `<head>`:
 
 ```html
-<script src="https://authmark.github.io/latest.js" defer></script>
+<script src="https://authmark.github.io/Handler/latest.js" defer></script>
 ```
 
 > This script automatically handles login/logout buttons, the AuthMark Provider Chooser, and cookie management.
@@ -22,7 +22,7 @@ Add these `<div>` elements where you want your login/logout buttons:
 
 ```html
 <div id="authmark-ctrl_logout"></div>
-<div id="authmark-ctrl_login_ms"></div>
+<div id="authmark-ctrl_login_microsoft"></div>
 <div id="authmark-ctrl_login_discord"></div>
 <div id="authmark-ctrl_login_google"></div>
 <div id="authmark-ctrl_login_github"></div>
@@ -87,7 +87,7 @@ console.log(accid);
     #authmark-ctrl_logout .authmark-btn { background: #ef4444; color: white; }
     #authmark-ctrl_login_google .authmark-btn { background: #4285F4; color: white; }
     #authmark-ctrl_login_github .authmark-btn { background: #333; color: white; }
-    #authmark-ctrl_login_ms .authmark-btn { background: #0078D4; color: white; }
+    #authmark-ctrl_login_microsoft .authmark-btn { background: #0078D4; color: white; }
     #authmark-ctrl_login_discord .authmark-btn { background: #7289DA; color: white; }
   </style>
 </head>
@@ -98,7 +98,7 @@ console.log(accid);
 <div id="authmark-ctrl_logout"></div>
 <div id="authmark-ctrl_login_google"></div>
 <div id="authmark-ctrl_login_github"></div>
-<div id="authmark-ctrl_login_ms"></div>
+<div id="authmark-ctrl_login_microsoft"></div>
 <div id="authmark-ctrl_login_discord"></div>
 <div id="authmark-ctrl_chooser"></div>
 
