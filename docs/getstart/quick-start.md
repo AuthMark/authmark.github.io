@@ -9,7 +9,7 @@ AuthMark allows you to **add authentication to your website** with minimal setup
 Add this to your HTML `<head>`:
 
 ```html
-<script src="https://authmark.github.io/auth.js" defer></script>
+<script src="https://authmark.github.io/latest.js" defer></script>
 ```
 
 > This script automatically handles login/logout buttons, the AuthMark Provider Chooser, and cookie management.
